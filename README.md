@@ -1,7 +1,6 @@
 # Desafio Full Cycle - Docker
 
 ## Desafio Go
----
 Esse desafio é muito empolgante principalmente se você nunca trabalhou com a linguagem Go!
 Você terá que publicar uma imagem no docker hub. Quando executarmos:
 
@@ -16,13 +15,11 @@ Lembrando que a Go Lang possui imagens oficiais prontas, vale a pena consultar o
 A imagem de nosso projeto Go precisa ter menos de 2MB =)
 
 ## Build
----
 ```bash
 docker build -t <seu-user>/desafiogo .
 ```
 
 ## Pull
----
 ```bash
 docker pull douguerty/desafiogo
 ```
